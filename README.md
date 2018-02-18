@@ -1,12 +1,14 @@
-# newtons
+# newton
 A physics calculator in common lisp (no calc)
 
+A project to solidify my understanding of physics and its mathematics, as well as to teach me common lisp.
+
+The wiki will soon be updated with physics concepts, laws, definitions, you name it.
 
 ### Rules to implement
 * metric 
 * prefixes
 * significant figures
-* scientific notation - built in :D
 
 ### Math to implement
 * f = ma
@@ -25,3 +27,8 @@ A physics calculator in common lisp (no calc)
 * circular motion/centripetal force
 * work/energy/power
 * potential/kinetic
+
+### Future features
+* stoichiometry
+* chemistry mathematics/laws/info
+* biology concepts
