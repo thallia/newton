@@ -1,6 +1,6 @@
-;;common lisp program for physics
 
-;; Constants
+;;; CONSTANTS ;;;
+
 ;; these are global vars because they'll be used everywhere
 (defparameter accel-due-to-gravity 9.8)   ;; m/sec^2) (g)
 (defparameter universal-gravity 6.67e-11) ;; (N*m^2)/(kg^2) (G)
@@ -20,15 +20,16 @@
 (defparameter mass-prot 1.67e-27)         ;; kg (m,p)
 
 
-;; RULES
+;;: RULES ;;;
+
+;;; units (g, m, sec, amp)
+
 ;;; sig figs
 
 ;;; prefixes (eg kilo, centi)
 
-;;; units (g, m, sec, amp)
 
-
-;; important functions
+;;; FUNCTIONS ;;;
 
 ;; displacement is the change in an objects position : final - initial
 (defparameter displace-initial 0)
@@ -59,4 +60,6 @@
   (defvar acceleration 9.8)
   (defparameter force (* mass acceleration)))
 
+
+;;; USER INPUT ;;;
 
