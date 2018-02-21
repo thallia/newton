@@ -2,22 +2,22 @@
 ;;; CONSTANTS ;;;
 
 ;; these are global vars because they'll be used everywhere
-(defparameter accel-due-to-gravity 9.8)   ;; m/sec^2) (g)
-(defparameter universal-gravity 6.67e-11) ;; (N*m^2)/(kg^2) (G)
-(defparameter lightspeed 2.99e8)          ;; m/sec (c)
-(defparameter amu 1.66e-27)               ;; kg (u)
-(defparameter avogadro 6.02e23)           ;; 1/g*mole (Na)
-(defparameter bohr 5.29e-11)              ;; m (a,o)
-(defparameter coloumb-const 9.0e9)        ;; (N*m^2)/(C^2)
-(defparameter charge-elec - (1.6e-19))    ;; C (e)
-(defparameter mass-elec 9.1e-31)          ;; kg (m,e)
-(defparameter volt-elec 1.602e-19)        ;; J (eV)
-(defparameter ideal-gas 8.31)             ;; J/mole*K (R)
-(defparameter faraday-const 96485)        ;; C/mole (F)
-(defparameter mass-neut 1.67e-27)         ;; kg (m,n)
-(defparameter plancks 6.63e-34)           ;; J*sec (h)
-(defparameter charge-prot 1.6e-19)        ;; C 
-(defparameter mass-prot 1.67e-27)         ;; kg (m,p)
+(defconstant accel-due-to-gravity 9.8)   ;; m/sec^2) (g)
+(defconstant universal-gravity 6.67e-11) ;; (N*m^2)/(kg^2) (G)
+(defconstant lightspeed 2.99e8)          ;; m/sec (c)
+(defconstant amu 1.66e-27)               ;; kg (u)
+(defconstant avogadro 6.02e23)           ;; 1/g*mole (Na)
+(defconstant bohr 5.29e-11)              ;; m (a,o)
+(defconstant coloumb-const 9.0e9)        ;; (N*m^2)/(C^2)
+(defconstant charge-elec - (1.6e-19))    ;; C (e)
+(defconstant mass-elec 9.1e-31)          ;; kg (m,e)
+(defconstant volt-elec 1.602e-19)        ;; J (eV)
+(defconstant ideal-gas 8.31)             ;; J/mole*K (R)
+(defconstant faraday-const 96485)        ;; C/mole (F)
+(defconstant mass-neut 1.67e-27)         ;; kg (m,n)
+(defconstant plancks 6.63e-34)           ;; J*sec (h)
+(defconstant charge-prot 1.6e-19)        ;; C
+(defconstant mass-prot 1.67e-27)         ;; kg (m,p)
 
 
 ;;: RULES ;;;
