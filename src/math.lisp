@@ -20,7 +20,7 @@
 (defconstant mass-prot 1.67e-27)         ;; kg (m,p)
 
 
-;;: RULES ;;;
+;;; RULES ;;;
 
 ;;; units (g, m, sec, amp)
 
