@@ -9,7 +9,7 @@
 (defconstant avogadro 6.02e23)           ;; 1/g*mole (Na)
 (defconstant bohr 5.29e-11)              ;; m (a,o)
 (defconstant coloumb-const 9.0e9)        ;; (N*m^2)/(C^2)
-(defconstant charge-elec - (1.6e-19))    ;; C (e)
+;(defconstant charge-elec - 1.6e-19)    ;; C (e)
 (defconstant mass-elec 9.1e-31)          ;; kg (m,e)
 (defconstant volt-elec 1.602e-19)        ;; J (eV)
 (defconstant ideal-gas 8.31)             ;; J/mole*K (R)
@@ -31,12 +31,29 @@
 
 ;;; FUNCTIONS ;;;
 
+
+;; user input bc it's fun
+(defun ask (&optional (message "Let's calculate displacement! What is the initial displacement?  ")(message2 "Now input the final displacement!  "))
+  (clear-input)
+  (write-string message)
+  (finish-output)
+  (defparameter displace-initial (parse-integer(read-line)))
+  (print displace-initial)
+  (terpri)
+  (write-string message2)
+  (finish-output)
+  (defparameter displace-final (parse-integer(read-line)))
+  (print displace-final)
+  )
+
 ;; displacement is the change in an objects position : final - initial
-(defparameter displace-initial 0)
 (defparameter displace-final 0)
 (defparameter xdisplacement 0)
-(defun displacement ()
-  (defparameter xdisplacement (- displace-final displace-initial)))
+(defun displacement()
+
+  (defparameter xdisplacement (- displace-final displace-initial))
+  (print xdisplacement))
+
 
 ;; speed is distance / time
 (defparameter distance 0)
@@ -60,6 +77,4 @@
   (defvar acceleration 9.8)
   (defparameter force (* mass acceleration)))
 
-
-;;; USER INPUT ;;;
 
