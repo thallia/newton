@@ -19,4 +19,4 @@
   :pathname "src" ; where the source code can be found
   :components ((:file "math") ; Label in what order to load the files, then the main program file and which files out of these it depends on.
                (:file "functions")
-               (:file "main" :depends-on ("functions" "math"))))
+               (:file "newton" :depends-on ("functions" "math"))))

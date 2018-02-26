@@ -1,1 +1,2 @@
-(welcome)
+(get_welcome)
+(greet)
