@@ -1,6 +1,21 @@
 {
     "term" : {
         "term" : "definition",
-        "tags" : ["dictionary", "physics", "biochem"]
+        "tags" : ["example", "physics", "biochem"]
+    },
+
+    "matter" : {
+        "matter" : "Anything that has mass and takes up space.",
+        "tags" : ["chemistry", "physics", "biology", "science"]
+    },
+
+    "puresubstance" : {
+        "pure substance" : "A substance whose properties are the same throughout.",
+        "tags" : ["chemistry", "element"]
+    },
+
+    "mixture" : {
+        "mixture" : "A combination of two or more pure substances.",
+        "tags" : ["chemistry", "pure substance"]
     }
 }
